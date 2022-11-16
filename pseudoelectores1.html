@@ -1,8 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="utf-8" />
 <title>HTML &amp; CSS: Curso práctico avanzado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+    :root {
+        font-family: 'Poppins', sans-serif;
+    }
+    h2::first-letter {
+        font-size: 2em;
+    }
+
+    h2 + p {
+        text-indent: 2em;
+    }
+    a::before {
+        content: "\2192";
+    }
+    abbr::after {
+        content: "("attr(title)")";
+    }
+    abbr {
+        text-decoration: none;
+    }
+    abbr:hover {
+        text-decoration: underline;
+    }
+    ul li:first-child {
+        background-color: yellow;
+    }
+    ul li:last-child {
+        background-color: gray;
+    }
+    ul li:nth-child(odd) {
+        border: 3px dotted pink;
+    }
+    
+</style>
 </head>
 <body>
 <h1>HTML &amp; CSS: Curso práctico avanzado</h1>
